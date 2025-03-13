@@ -1,0 +1,13 @@
+# logs
+logs
+*.log
+npm-debug.log*
+#carpetas ignoradas
+node_modules
+dist
+dist-ssr
+*.local
+
+#Directorios del editor
+.vscode/*
+!.vscode/extensions.json
