@@ -20,6 +20,7 @@ app.use(express.json());
 
 //Rutas controller y routes
 const rutas_article =require("./routes/articleRoutes")
+// unicamente para el test crear con postman
 app.use(express.urlencoded({extended:true}));
 
 
